@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+     
+    <div id="loader">
+      <div class="spinner"></div>
+    </div>
+    
+
+    <header>
+      <button id="toggleButton">DarkMode</button>
+
+      <script>
+        const toggleButton = document.getElementById("toggleButton");
+        toggleButton.addEventListener("click", () => {
+          document.body.classList.toggle("dark-mode");
+        });
+      </script>
+      <a href="#" class="logo">ExamWiseAKTU</a>
+      <ul id="menuList">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Result</a></li>
+        <!-- <li><a href="#">Admit Card</a></li>
+        <li><a href="#">Campus connect</a></li> -->
+        <li><a href="index.html#aboutus">About</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+      <div class="menu-icon">
+        <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+      </div>
+    </header>
+    <script>
+      let menuList = document.getElementById("menuList");
+      menuList.style.maxHeight = "0px";
+
+      function toggleMenu() {
+        if (menuList.style.maxHeight === "0px") {
+          menuList.style.maxHeight = "350px"; // Adjust this value based on your content
+        } else {
+          menuList.style.maxHeight = "0px";
+        }
+      }
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      window.onload = function() {
+  setTimeout(function() {
+    document.getElementById("loader").style.display = "none";
+  }, 1500); // 3 seconds loader
+};
+
+    </script>
+
+    <!---main file-->
+    <div class="s1">
+      <div id="container">THIRD YEAR PAPERS</div>
+      <div>
+        <h1 id="sem">SEMESTER 5<sup>th</sup> & 6<sup>th</sup></h1>
+        <p id="syll">Syllabus<a href="#"></a></p>
+      </div>
+      <div class="main">
+        <div class="notes">
+          <h2>Notes</h2>
+          <div class="list">
+          <ul style="list-style-type: none;">
+            <li> <a href="https://drive.google.com/file/d/1-q_nd4Xr3JTaJdK1N6pion9O0E6wDf7W/view?usp=drive_link"><p>Constitution of India</p></a></li>
+            <li> <a href="https://drive.google.com/open?id=1-kvfUZV4Met4YvfcsAfK3Yaj2kUg7Lr9&usp=drive_copy"><p>DBMS</p></a></li>
+            <li> <a href="https://drive.google.com/file/d/1-cSYZOv1FRQpI2kN6F7KhBpDVsuM7eON/view?usp=drive_link"><p>Design and analysis of algorithms</p></a></li>
+            <li> <a href="https://drive.google.com/file/d/1-cFDACiL8IoRp9X-PLzi05Bo5fRMbxJf/view?usp=drive_link"><p>software Engineering quantum</p></a></li>
+            <li> <a href="https://drive.google.com/file/d/1-UDkmZpaGVVgll594PI8hHvXu0-Y5JRM/view?usp=drive_link"><p>Web Technology</p></a></li>
+
+          </ul>
+          </div>
+        </div>
+        <div class="previous">
+          <h2>Previous Year</h2>
+          <div class="list">
+            <ul>
+              <!---sem5-->
+              <!---2018-->
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/16A7UXsU9_z2sd915DamYkM4QChx9yVN6/view?usp=drive_link"
+                  ><p>btech-web-technology-ncs504-2018</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1fKgBa8gURkmV2IHZWPjKktdvUzc6sSIL/view?usp=drive_link"
+                  ><p>btech-cs-5-sem-graph-theory-ecs505-2018</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1YxO04fNtqGNpSjY7i6XAGhSpybS4Fuo-/view?usp=drive_link"
+                  ><p>
+                    btech-cs-5-sem-design-and-analysis-of-algorithms-ecs502-2018
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1ZfzY-epao61fp8l9_5tuAzN0aQZCctL9/view?usp=drive_link"
+                  ><p>
+                    btech-cs-5-sem-database-management-system-ncs502-2018
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1NTRlYFKepLBpST4PNcjfInyBZUOPGIvY/view?usp=drive_link"
+                  ><p>btech-cs-5-sem-computer-architecture-ncs505-2018</p></a
+                >
+              </li>
+              <!---2019-->
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/16A7UXsU9_z2sd915DamYkM4QChx9yVN6/view?usp=drive_link"
+                  ><p>btech-cs-5-sem-web-technology-ncs504-2019</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/17w-17i__htwT3rwpxY5Dd_3rTgnr2EdG/view?usp=drive_link"
+                  ><p>btech-cs-5-sem-web-technologies-rcs052-2019</p></a
+                >
+              </li>
+              <!---2021-->
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/19o2TkPh8ysmqTfuqwjDl2ttNmYTrgSkc/view?usp=drive_link"
+                  ><p>btech-cs-5-sem-human-computer-interface-kcs058-2021</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/19Zbjj2nRYDoTcmsksoKCW2Vhubcu7R_t/view?usp=drive_link<"
+                  ><p>
+                    btech-cs-5-sem-design-and-analysis-of-algorithm-ncs501-2021
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1DfPwaxD-VktxNh6hU8D0Gu9h4hlVZd3Z/view?usp=drive_link"
+                  ><p>
+                    btech-cs-5-sem-design-and-analysis-of-algorithm-kcs503-2021
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1qdWauzcTC7OuDir8No2r5wGh3UTfjrpr/view?usp=drive_link"
+                  ><p>
+                    btech-cs-5-sem-database-management-system-kcs501-2021
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/18uxVAFFfwWhGrXZAYjE_kS_PPqVhlSHH/view?usp=drive_link"
+                  ><p>btech-cs-5-sem-data-analytics-kcs051-2021</p></a
+                >
+              </li>
+              <!---2022-->
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/18FWkpnl0BSWacdFM7qgzTuDOq9yc4meB/view?usp=drive_link"
+                  ><p>btech-cs-5-sem-web-designing-kcs052-2022</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1dlRz7JqKqgwH_HIIds4US0pzmznk_ejj/view?usp=drive_link"
+                  ><p>
+                    btech-cs-5-sem-principle-of-programming-languages-rcs503-2022
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/14OKAKCy8SyvBpWR8BGBlpNmaYSilTvU6/view?usp=drive_link"
+                  ><p>
+                    btech-cs-5-sem-object-oriented-system-design-kcs054-2022
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1B6yPAzoqmqzpPiS4bAkWqse8M2Ij9rCt/view?usp=drive_link"
+                  ><p>btech-cs-5-sem-human-computer-interface-kcs058-2022</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1yvZ8kT_EH8pfUYa-CeNRfQ9N9_CzIVvM/view?usp=drive_link"
+                  ><p>
+                    btech-cs-5-sem-design-and-analysis-of-algorithm-ncs501-2022
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1YFA4qnErYh3vDPf3KvNDsw0TI07vlhz_/view?usp=drive_link"
+                  ><p>
+                    btech-cs-5-sem-design-and-analysis-of-algorithm-kcs503-2022
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1rG1TFbS1IvTuN8DapADVaeqYRQ-F2nA4/view?usp=drive_link"
+                  ><p>
+                    btech-cs-5-sem-database-management-system-rcs501-2022
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/15WzL3Gg4TUuNyFDt9M4y0KCayQeYk4f7/view?usp=drive_link"
+                  ><p>
+                    btech-cs-5-sem-database-management-system-kcs501-2022
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1kiTNlAb8YZnZr4Ck-kAt2Gf8wRrLdTSi/view?usp=drive_link"
+                  ><p>btech-cs-5-sem-data-analytics-kcs051-2022</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1A4ofPjJs4wt3cxK3de1DuIL5vVI9sBWt/view?usp=drive_link"
+                  ><p>btech-cs-5-sem-computer-graphics-kcs053-2022</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1Vr7uaylrr0EC7TqILru615c1ssNK-7Bh/view?usp=drive_link"
+                  ><p>btech-cs-5-sem-compiler-design-kcs502-2022</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1GGIDOH_ixZfgWGKlE1vQQ7TatrCOvj5p/view?usp=drive_link"
+                  ><p>btech-cs-5-sem-compiler-design-kcs502-2021</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1kYMqOd7TbmHf5C0wkKqlSJDLaGPHnlmt/view?usp=drive_link"
+                  ><p>
+                    btech-cs-5-sem-application-of-soft-computing-kcs056-2021
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1gxqRRbh3HQDYaBeNNowSpSiZaV8g7XHM/view?usp=drive_link"
+                  ><p>
+                    btech-cs-5-sem-application-of-soft-computing-kcs056-2022
+                  </p></a
+                >
+              </li>
+              <!---2023-->
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1732vnoUAErOAfhiq683utireRwO3caZR/view?usp=drive_link"
+                  ><p>btech-cs-5-sem-web-designing-kcs052-2023</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/19lXi3EA5Sc6PgoySREUA-mS-UzcCMUj_/view?usp=drive_link"
+                  ><p>
+                    btech-cs-5-sem-object-oriented-system-design-kcs054-2023
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/10rBccnGT8nhQ-qEeP4yClZRWy-Jgbp6k/view?usp=drive_link"
+                  ><p>
+                    btech-cs-5-sem-machine-learning-techniques-kcs055-2023
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1qbGxYyOAGgvyN7VD4Bop_VrvYMSdGW1q/view?usp=drive_link"
+                  ><p>btech-cs-5-sem-human-computer-interface-kcs058-2023</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1i2qetZM1SvXFpfm9SrHzNxiLjkEdig3x/view?usp=drive_link"
+                  ><p>
+                    btech-cs-5-sem-design-analysis-of-algorithm-kcs503-2023
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1_NnW8_oqOb1_71MG7H3lehlYTWfQXai5/view?usp=drive_link"
+                  ><p>
+                    btech-cs-5-sem-database-management-system-kcs501-2023
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/113-3Ne2UxjIXYYW0zz1TAvKjC5sP4ePj/view?usp=drive_link"
+                  ><p>
+                    btech-cs-5-sem-database-management-system-kcs-501-jan-2023
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1CmayZeBsc1tBpEiFuu5IaPKWDMlrfFKX/view?usp=drive_link"
+                  ><p>btech-cs-5-sem-data-analytics-kcs051-2023</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1kgBy4lRqD-nsnVUyI_V9w0FnJH1oDL9O/view?usp=drive_link"
+                  ><p>btech-cs-5-sem-computer-graphics-kcs053-2023</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1gNG71_Q76m7iITxWB-kgQY5_JqBgtTYv/view?usp=drive_link"
+                  ><p>btech-cs-5-sem-compiler-design-kcs502-2023</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/15jkxH8q5eq5WBwMCDNc9ub9v0L90pt8G/view?usp=drive_link"
+                  ><p>
+                    btech-cs-5-sem-augmented-and-virtual-reality-kcs057-2023
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1kw0ERDFWn0s555rQoRMIHRXCY0Htc2YU/view?usp=drive_link"
+                  ><p>
+                    btech-cs-5-sem-application-of-soft-computing-kcs056-2023
+                  </p></a
+                >
+              </li>
+              <!---2024-->
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1J9-7uXNMpyA2b-urE0JHTx2aiGSZ6xUh/view?usp=drive_link"
+                  ><p>btech-ml-5-sem-cloud-computing-kml051-feb-2024</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1zrI6T9n1oS87fL-0-3SDqz9S6D5C_uFa/view?usp=drive_link"
+                  ><p>btech-cs-5-sem-web-designing-kcs052-jan-2024</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1_OXNyA97v5lSwFNkYxIT5YKC0T-lzyxU/view?usp=drive_link"
+                  ><p>
+                    btech-cs-5-sem-design-and-analysis-of-algorithm-kcs503-jan-2024
+                  </p></a
+                >
+              </li>
+              <hr />
+              <hr />
+              <hr />
+              <!---sem5-->
+              <!---2018-->
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1THvaodNR0zOaT_rHAVSotUjbw6DpM-vl/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-compiler-design-ecs603-2018</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1MmcLtG4hsRKRwF_LH5iTITUUWpHoWN6i/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-computer-design-ncs603-2018</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1fM7EVmR5VTceW22ug3E6yutC3xpqR26A/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-computer-networks-ncs601-2018</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1CM4tzAdLSKMGWeNqs7s3uQx6grUKyO0X/view?usp=drive_link"
+                  ><p>
+                    btech-cs-6-sem-database-management-system-data-mining-and-warehousing-ecs019-2018
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1Z4O6WHUmJPppkBZx3LC7g3K-nX0EsLwI/view?usp=drive_link"
+                  ><p>
+                    btech-cs-6-sem-datawarehousing-and-data-mining-ncs066-2018
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1mW2iO0YOZGsLkNV3GtvLyW2q4fdyHatU/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-e-commerce-ncs-068-2018</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/12YDqUp7plsYcyenRvzhV9R62kMLP8iPM/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-graph-theory-ecs505-2018</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1UrkeL0SZHEiiQO5Zyhs6Kn_APrgJiHbC/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-parallel-algorithm-ncs-063-2018</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1AFClZCAGlMHMYUROcu8l2CSN3oPxuIMt/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-software-engineering-ncs602-2018</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1gkwiqaly1IBfB_ymbdk6zLOsHrW52f2I/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-software-engineering-rcs402-2018</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1bqccSXPp6ykX8O86ktqp0Xd6pWMdzijt/view?usp=drive_link"
+                  ><p>btech-web-technology-ncs504-2018</p></a
+                >
+              </li>
+              <!---2019-->
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1M7suCQ1nPR0saxbXHT8QyObQ7YdKhNi9/view?usp=drive_link"
+                  ><p>btech-6-sem-sociology-ras602-2019</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1jmMupGhPNbukrThXquruVaJhs3ks5piQ/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-compiler-design-rcs602-2019</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1H9entRrQv7jchK6iVBsOjk3DZK6HUlHH/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-computer-graphics-rcs603-2019</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1ujOBPv85ymyZh8lj0OHDDCc3N0bHN9kb/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-computer-network-rcs601-2019</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/15eIx4w9Gzs9YP9RCjgeD7_2rXZZE-kOV/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-computer-networks-ncs601-2019</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1LjEUqM3iOUPBF2yyiiuvEq0-VeNJUG6S/view?usp=drive_link"
+                  ><p>
+                    btech-cs-6-sem-datawarehousing-and-data-mining-ncs066-2019
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1Xf82l4QllHtXN5yO03LM-jZGvrCRMq4C/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-distributed-database-ncs-067-2019</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/12tzLSSqa2IzK4Hgmdq5KAPng9w6p2RFl/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-graph-theory-ecs-505-2019</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1RWCgzcoaWNP-Xmgw3EApf2NWIt-llNh0/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-parallel-algorithm-ncs-063-2019</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1QR0whBWQG5A4G3qk5D5l98P_JbJ1brsW/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-software-engineering-ncs-602-2019</p></a
+                >
+              </li>
+              <!---2022-->
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1gfF9ZEL_JE7shglhptIEDiobLD1zDGT5/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-computer-networks-kcs603-2022</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1aHELg29Ggle4GOmPIY1M2X7cYKsdy4bJ/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-computer-networks-rcs601-2022</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1lDz9FFf2n29bsEFy89Ht9kImg46kmogu/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-web-technology-kcs602-2022</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1E8kQvizSes1lHMOizX5tLsuIJv_yV_EG/view?usp=drive_link"
+                  ><p>
+                    btech-oe-6-sem-basics-of-data-base-management-system-koe067-2022
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1AxYesqD_5KeFbfDdBGF1IikYxUXeSkbv/view?usp=drive_link"
+                  ><p>
+                    btech-oe-6-sem-computer-based-numerical-techniques-koe065-2022
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1nk8RkcteAJinzA456ViNgSJalj-MGMmw/view?usp=drive_link"
+                  ><p>btech-oe-6-sem-embedded-system-koe062-2022</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1Gf11IT7Gle7ozTU7MENu_kYTgwHnJR7J/view?usp=drive_link"
+                  ><p>btech-oe-6-sem-gis-and-remote-sensing-koe066-2022</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1MWih6ZpKXqCd0qaT5yrGvFEH_zhQ_2od/view?usp=drive_link"
+                  ><p>btech-oe-6-sem-idea-to-business-model-koe060-2022</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1Ax1b0iapST6athU4_vuS21avvr8c4r_N/view?usp=drive_link"
+                  ><p>btech-oe-6-sem-introduction-to-mems-koe063-2022</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1ObUYykyd897qt9b6pWPO5HbEK6FJGaZ0/view?usp=drive_link"
+                  ><p>
+                    btech-oe-6-sem-object-oriented-programming-koe064-2022
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1Sl0SV7EXNuJ9EQO6GwobRMQiECcUwNKk/view?usp=drive_link"
+                  ><p>btech-oe-6-sem-real-time-systems-koe061-2022</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1-jf22d4RifLlGuoWdTNWiafyQ9iCfGy-/view?usp=drive_link"
+                  ><p>
+                    btech-oe-6-sem-software-project-management-koe068-2022
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1iNZnVxslSOmEjgTjq3HjjTOUQ6HFktLq/view?usp=drive_link"
+                  ><p>
+                    btech-oe-6-sem-understanding-the-human-being-comprehensively-koe069-2022
+                  </p></a
+                >
+              </li>
+              <!---2023-->
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1LVfsrKUUN5GCQQX9deCv3HB4tccy1qiA/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-big-data-kcs-061-2023</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1xSCZsAuHgENsMR7jinnMwb6h4xS2HwZQ/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-computer-networks-kcs-603-2023</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1w494qJaezBkYMjAMEwbzrG8nDT-6nPfu/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-data-compression-kcs-064-2023</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/19MElcKKE2J5z02Slgj7_vkh0Jw9N2dm9/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-image-processing-kcs-062-2023</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1XqzNxJEAywC7Uyty18scsDKWTzCYkzKc/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-real-time-system-kcs-063-2023</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1bmmQonTY1uRcbJwqcnlWBSumpDA7wNiw/view?usp=drive_link"
+                  ><p>
+                    btech-cs-6-sem-software-engineering-kcs-601-2023 (1)
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1yNWUQ1aUnxByQFkNntWi18rNE87NbXUT/view?usp=drive_link"
+                  ><p>btech-cs-6-sem-web-technology-kcs-602-2023</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1Wq5VvwsvMD8oJTZVJBptAcmYfdJ2C2pV/view?usp=drive_link"
+                  ><p>btech-ds-6-sem-software-engineering-kds-063-2023</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1amFOIuGEJpuJ5JMDmcdeVf-YSuQZrOnl/view?usp=drive_link"
+                  ><p>
+                    btech-oe-6-sem-basics-of-data-base-management-system-koe-067-2023
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1YXy7hpj1lkfLwZ6QPPTmEVFM_qb4iTJ-/view?usp=drive_link"
+                  ><p>
+                    btech-oe-6-sem-computer-based-numerical-techniques-koe-065-2023
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1zTuyxO-p4GlmFp3hplsHMs6Jx5HEsHMH/view?usp=drive_link"
+                  ><p>btech-oe-6-sem-embedded-system-koe-062-2023</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1nQHeXbTytTiGYPD3WwFSuqp2MduOXQQt/view?usp=drive_link"
+                  ><p>btech-oe-6-sem-gis-remote-sensing-koe-066-2023</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/16gD9hgGNTLWxmSmx1Xzbr7OzAikGzbKX/view?usp=drive_link"
+                  ><p>btech-oe-6-sem-introduction-to-mems-koe-063-2023</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1QzRYTS28QBMVuM1y-BmIuuiHPi9h1Zyn/view?usp=drive_link"
+                  ><p>
+                    btech-oe-6-sem-introduction-to-smart-grid-koe-084-2023
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/15Cks23KqYDIU_AJrwVy_pwFdcDWKxid7/view?usp=drive_link"
+                  ><p>
+                    btech-oe-6-sem-object-oriented-programming-koe-064-jun-2023
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1wVFYQAtrN0hm71wREGdv7ci9677YomqG/view?usp=drive_link"
+                  ><p>btech-oe-6-sem-real-time-systems-koe-061-2023</p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/13T4wuy2gB9rGKrQR-GDHzcwYk3zp3KZF/view?usp=drive_link"
+                  ><p>
+                    btech-oe-6-sem-software-project-management-koe-068-2023
+                  </p></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/19mkkSXWMIjab1CGIxlKtCWw7KzrT1jlv/view?usp=drive_link"
+                  ><p>
+                    btech-oe-6-sem-understanding-the-human-being-koe-069-2023
+                  </p></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+<section id="contact">
+    <div class="footer" style="
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;">
+        <div class="column">
+          <h1>ExamWiseAKTU</h1>
+          <p>
+            Bakshi Ka Talab, Lucknow,U.P
+            India.
+          </p>
+          <p>Office Hours: 10 AM to 7 PM (all 7 days)</p>
+        </div>
+        <div class="column">
+          <h3>Useful Links</h3>
+          <ul type="none">
+          <li><a href="#"> Home </a></li>
+          <li><a href="#"> Question Papers </a></li>
+          <li><a href="#"> About Us </a></li>
+          <li><a href="#"> Media </a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <h3>Products</h3>
+          <ul type="none">
+          <li><a href="#"> Test Series </a></li>
+          <li><a href="#"> Live Tests and Quizzes </a></li>
+          <li><a href="#"> Books </a></li>
+          <li><a href="#"> Training Program </a></li>
+          <li><a href="#"> Doubts </a></li>
+          </ul>
+        </div>
+       
+        </div>
+      
+      <div class="footer-bottom" style="margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: #e0e0e0;">
+        <h2 style="background-color: #1a1a1a">Follow us on</h2>
+        <a href="#"><i class="fab fa-youtube"> </i> </a>
+        <a href="#"><i class="fab fa-facebook-f"> </i> </a>
+        <a href="mailto:educationsources01@gmail.com"><i class="fa fa-envelope"> </i> </a>
+      </div>
+      <div class="footer-bottom" style="margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: #e0e0e0;">
+      <p>
+        Copyright © 2024 ExamWiseAKTU : All rights
+        reserved
+      </p>
+      <a href="#"> User Policy </a>
+      <a href="#"> Terms </a>
+      <a href="#"> Privacy </a>
+      </div>
+  </div>
+</section>
+  </body>
+</html>

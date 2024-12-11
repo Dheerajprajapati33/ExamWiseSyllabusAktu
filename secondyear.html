@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div id="loader">
+        <div class="spinner"></div>
+      </div>
+      
+   <header>
+    <button id="toggleButton">DarkMode</button>
+
+    <script>
+        const toggleButton = document.getElementById('toggleButton');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            
+        });
+    </script>
+    <a href="#" class="logo">ExamWiseAKTU</a>
+    <ul id="menuList">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Result</a></li>
+        <!-- <li><a href="#">Admit Card</a></li>
+        <li><a href="#">Campus connect</a></li> -->
+        <li><a href="index.html#aboutus">About</a></li>
+        <li><a href="#contact">contact</a></li>
+    </ul>
+    <div class="menu-icon">
+        <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+    </div>
+    </header>
+    <script>
+    let menuList = document.getElementById("menuList");
+    menuList.style.maxHeight = "0px";
+
+    function toggleMenu() {
+        if (menuList.style.maxHeight === "0px") {
+            menuList.style.maxHeight = "350px"; // Adjust this value based on your content
+        } else {
+            menuList.style.maxHeight = "0px";
+        }
+    }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" crossorigin="anonymous"></script>
+
+<script>
+    window.onload = function() {
+  setTimeout(function() {
+    document.getElementById("loader").style.display = "none";
+  }, 1500); // 3 seconds loader
+};
+
+</script>
+
+
+
+
+
+    <!---main file-->
+    <div class="s1">
+
+        <div id="container">
+            SECOND YEAR PAPERS
+        </div>
+        <div>
+            <h1 id="sem">SEMESTER 3 & 4</h1>
+            <p id="syll">Syllabus<a href="#"></a></p>
+        </div>
+        <div class="main">
+            <div class="notes">
+                <h2>Notes</h2>
+                <div class="list">
+                   <ul style="list-style-type: none;">
+                    <li> <a href="https://drive.google.com/file/d/1-yewzgXa66AgeRel13pP94oVctC7fZad/view?usp=drive_link"><p>ComputerOrganizationArchitecture</p></a></li>
+                    <li> <a href="https://drive.google.com/file/d/1-vPX8Ozsaxvzw2pfVYFOx6jaYW-UV-KU/view?usp=drive_link"><p>DS Notes</p></a></li>
+                    <li> <a href="https://drive.google.com/file/d/10CXinsZcvGFB4UEV3Kuqch5jAI-We6qr/view?usp=drive_link"><p>Material Science</p></a></li>
+                    <li> <a href="https://drive.google.com/file/d/10aRzZa7ImkyKaXWrG1AG8m6DxZUy7J0o/view?usp=drive_link"><p>OOPS with Java</p></a></li>
+                    <li> <a href="https://drive.google.com/file/d/1-uw82n55YjRT8rz4lz8jVr6tGidrNBvC/view?usp=drive_link"><p>OS Notes</p></a></li>
+                    <li> <a href="https://drive.google.com/file/d/10NlOpX0aGx5eRUCUsVDd9GPwv4mGqNLT/view?usp=drive_link"><p>Python Programming</p></a></li>
+                    <li> <a href="https://drive.google.com/file/d/10bGQPkP6tP2o8chJTzSUriRvy2juLppH/view?usp=drive_link"><p>TAFL QUANTUM </p></a></li>
+                    <li> <a href="https://drive.google.com/file/d/10aaiYPbdPQjgIWTWqoN3fE8K925RHJ0T/view?usp=drive_link"><p>UHV Quantum</p></a></li>
+                   </ul>
+                </div>
+            </div>
+            <div class="previous">
+                <h2>Previous Year</h2>
+                <div class="list">
+                    <ul>
+                        <!---3rd sem-->
+                        <!--2021-->
+                        <li><a href="https://drive.google.com/file/d/1gjh-kKjVtlC9jbgRKVYgckHQRdKcYyIa/view?usp=drive_link"><p>btech-as-3-sem-mathematics-4-kas302-2021</p></a></li>
+                        <li><a href="https://drive.google.com/file/d/1LSn6mfnKsRse8ApqkbE0t8naZsc01NMP/view?usp=drive_link"><p>btech-cs-3-sem-computer-organization-and-architecture-kcs302-2021</p></a></li>
+                        <li><a href="https://drive.google.com/file/d/1RRki560VKXfYSHFIr-dLl_kKRzAVDG6N/view?usp=drive_link"><p>btech-cs-3-sem-data-structures-kcs301-2021</p></a></li>
+                        <li><a href="https://drive.google.com/file/d/1xO6oFCzEiKX-TFYqZQVh0-ScKuCV6bnA/view?usp=drive_link"><p>btech-cs-3-sem-discrete-structure-and-theory-of-logic-kcs303-2021</p></a></li>
+                        <li><a href="https://drive.google.com/file/d/1UND9oaXd_YHw0iEYao_Q8nEqrHcR4KMz/view?usp=drive_link"><p>btech-oe-3-sem-electronics-engineering-koe038-2021</p></a></li>
+                        <!--2022-->
+                        <li><a href="https://drive.google.com/file/d/1uWNc6uKSjE-Z3eMjdkdSFAm6oRv6sh0W/view?usp=drive_link"><p>btech-as-3-sem-mathematics-4-kas302-2022</p></a></li>
+                        <li><a href="https://drive.google.com/file/d/1F0V502F-n9WazfOWkKlWxSLTWJaQBF8o/view?usp=drive_link"><p>btech-as-3-sem-technical-communication-kas301-2022</p></a></li>
+                        <li><a href="https://drive.google.com/file/d/1vwhLz2Mx1UcaTFesdKySL_MPwc9koz9M/view?usp=drive_link"><p>btech-cs-3-sem-computer-organization-and-architecture-kcs302-2022</p></a></li>
+                        <li><a href="https://drive.google.com/file/d/1JGsj4Itq26ImWybdhaJ9x7N1sgPIUYKs/view?usp=drive_link"><p>btech-cs-3-sem-data-structure-kcs301-2022</p></a></li>
+                        <li><a href="https://drive.google.com/file/d/1IncRzdrr8N5vdtTAHdv4HRK8ZZCCBYGc/view?usp=drive_link"><p>btech-cs-3-sem-discrete-structure-and-graph-theory-ncs302-2022</p></a></li>
+                        <li><a href="https://drive.google.com/file/d/1y1HLb1s_j1LS8xSG-1MVq8AVQrgWbSAv/view?usp=drive_link"><p>btech-oe-3-sem-analog-electronics-koe037-2022</p></a></li>
+                        <li><a href="https://drive.google.com/file/d/18GwpwdR6svir_-v-LHi-YWRi_ddix_3f/view?usp=drive_link"><p>btech-oe-3-sem-basic-data-structure-and-algorithms-koe035-2022</p></a></li>
+                        <li><a href="https://drive.google.com/file/d/1MFtbZJJrqYyR5uVHYnA7sMeb0XmjqGcL/view?usp=drive_link"><p>btech-oe-3-sem-material-science-koe032-2022</p></a></li>
+                        <li><a href="https://drive.google.com/file/d/1BOitClxM26nwcxrZ4Pl_WlsAxa25xP-S/view?usp=drive_link"><p>btech-ve-3-sem-universal-human-values-and-ethics-kve301-2022</p></a></li>
+                    <!---2023-->
+                    <li><a href="https://drive.google.com/file/d/1UubymO1DNQdcvkOYardYcAc5JLE7VcKy/view?usp=drive_link"><p>btech-as-3-sem-technical-communication-kmbnfm-02-feb-2023</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1SRA0FmCc2BoJzfm5j5GTmd41qlLCTaQl/view?usp=drive_link"><p>btech-cs-3-sem-computer-organization-and-architecture-kcs-302-2023</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1BrB6udrvRFXYXQqADbBdHWMSpv3ckW3J/view?usp=drive_link"><p>btech-cs-3-sem-data-structure-kcs-301-2023</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1MmlW6B-U8Jk4qwiw6xsbBU7zXmFmk8yc/view?usp=drive_link"><p>btech-cs-3-sem-discrete-structures-theory-of-logic-kcs-303-2023</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1F3erlBHbm-zo8HHB23NeXdusQoYTRUA7/view?usp=drive_link"><p>btech-oe-3-sem-analog-electronics-koe-037-2023</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/14ptpBgZ3uCzpxcaZC0Cx8m4mmjYyQiLt/view?usp=drive_link"><p>btech-oe-3-sem-basic-data-structure-algorithms-koe-035-2023</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1DMeLqx4YW21ht0gJ-bor_Py6_fzhsRPD/view?usp=drive_link"><p>btech-oe-3-sem-material-science-koe-032-2023</p></a></li>
+                    <li><a herf="https://drive.google.com/file/d/1S2zOvLDTpJbVAPphRSss6loGH4VMjkKj/view?usp=drive_link"><p>btech-as-3-sem-mathematics-4-kas-302-mar-2023</p></a></li>
+                    <!--2024-->
+                    <li><a href="https://drive.google.com/file/d/1pvpVQ9xdtDZbkrD0sCJ7buKOvrGCXF-K/view?usp=drive_link"><p>btech-3-sem-universal-human-values-professional-ethics-kve301-mar-2024</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1TJh0zeX4l7f8l5j2AruDutuiWlq9uN5b/view?usp=drive_link"><p>btech-as-3-sem-technical-communication-bas301-mar-2024</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1AiD76G27trVcenePxFCJ5A4eMoWK5om2/view?usp=drive_link"><p>btech-cs-3-sem-computer-organization-and-architecture-bcs302-2024</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1Qu3WIrVtXPSgQh11gAaXd7UBDiKm_H5w/view?usp=drive_link"><p>btech-cs-3-sem-data-structure-bcs301-mar-2024 (1)</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1qrsFuw2N_J7CM5N64Fc2qct9sZCpvA3x/view?usp=drive_link"><p>btech-cs-3-sem-data-structure-bcs301-mar-2024</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1hdDuDpPGo---zpbWztC0fJwWjM2W-a3D/view?usp=drive_link"><p>btech-cs-3-sem-discrete-structures-and-theory-of-logic-bcs303-mar-2024</p></a></li>
+                    <!--4th sem-->
+                    <!--2018-->
+                    <li><a href="https://drive.google.com/file/d/15OBxC662bDMhKewqQIpqmGfdON03Eb3O/view?usp=drive_link"><p>btech-oe-4-sem-material-science-noe047-2018</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1oJGcd2SnA9RvJFMXkom_trW7jiIcV-D5/view?usp=drive_link"><p>btech-oe-4-sem-discrete-mathematics-noe048-2018</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1OfEtVguBJOuD1bPN2uTiHOFZEElagDMr/view?usp=drive_link"><p>btech-cs-4-sem-theory-of-automata-and-formal-languages-ncs402-2018</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1EDHzb7Xfd2svThVLHpAWhkhPTrMdGgVv/view?usp=drive_link"><p>btech-cs-4-sem-operating-system-cs403-2018</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1hp_0NmLEWf1EVECxuCBBge4PfQaiJaMP/view?usp=drive_link"><p>btech-cs-4-sem-data-structure-rcs405-2018</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1Vt-m3FN7_Oj3NA0jeH_3hLICdGBY7xby/view?usp=drive_link"><p>btech-cs-4-sem-data-structure-and-algorithms-rcs406-2018</p></a></li>
+                    <!--2019-->
+                    <li><a href="https://drive.google.com/file/d/17LL7p7Y3zg7B7LhUT4dMG0QZKt6RAxxn/view?usp=drive_link"><p>btech-oe-4-sem-material-science-eoe047-2019</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/12WjDtRH4rXj4QrCRqiNqmxiZTRuUn9k5/view?usp=drive_link"><p>btech-oe-4-sem-discrete-mathematics-eoe048-2019</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1hhppvsG5kfCt899AX_fzfOLcQPraxsXY/view?usp=drive_link"><p>btech-cs-4-sem-operating-system-ncs401-2019</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1nYKqo0r41DowFwAmVN3uRfb259JPpBNG/view?usp=drive_link"><p>btech-cs-4-sem-data-structures-rcs405-2019</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1cSwEM56xiLgA7N5lrVfqUWIuPlZiT7xN/view?usp=drive_link"><p>btech-cs-4-sem-data-structure-and-algorithm-rcs-406-2019</p></a></li>
+                    <!--2022-->
+                    <li><a href="https://drive.google.com/file/d/1DeSzZNXO4DZTCw3atWi0E_SRv6lwmtAD/view?usp=drive_link"><p>btech-oe-4-sem-electronics-engineering-koe048-aug-2022</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1aw_100Kec7LvfkEetE-Oc0YfQ0VESz8Z/view?usp=drive_link"><p>btech-oe-4-sem-digital-electronics-koe049-2022</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1JpdNHtvAKrJw3zJbmhmaBdp_qd2jrWM4/view?usp=drive_link"><p>btech-cs-4-sem-theory-of-automata-and-formal-languages-kcs402-2022</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1HS2kpGHLylBxaksE_NrRpYI54b1aHYzD/view?usp=drive_link"><p>btech-cs-4-sem-operating-systems-kcs401-2022</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1xVeT6HPS4hD3706EJHAEr38lnwrkcklR/view?usp=drive_link"><p>btech-cs-4-sem-microprocessor-kcs403-2022</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1qnWVh0XqRIOlsbY50EfCAP-ZlS4UkeaW/view?usp=drive_link"><p>btech-as-4-sem-maths-4-kas402-2022</p></a></li>
+                    <!--2023-->
+                    <li><a href="https://drive.google.com/file/d/1JCjU0qZMuvJC4z7bSqCDrKiyUXQaejaV/view?usp=drive_link"><p>btech-oe-4-sem-material-science-koe-042-2023</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/19oIBTu6js3gQdtXkfxu6NLWMJPKpmiWl/view?usp=drive_link"><p>btech-oe-4-sem-basic-data-structure-algorithms-koe-045-2023</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1i8ZPEHGCmXWMb2Y6HV-vPtIkGNSE05hC/view?usp=drive_link"><p>btech-nc-4-sem-python-programming-knc-402-2023</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1unY-1PpThZdxGdbwmLieIGj4j88hXQSV/view?usp=drive_link"><p>btech-cs-4-sem-theory-of-automata-and-formal-languages-kcs-402-2023</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1L02VWCSrWq7QD5YKFC529iYgGoPX-9jj/view?usp=drive_link"><p>btech-cs-4-sem-theory-of-automata-and-formal-language-ncs402-2019</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1Kqu-W3lW8P1XRVKj8-zhTyagcT3FYnwA/view?usp=drive_link"><p>btech-cs-4-sem-operating-systems-kcs-401-2023</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1G4n-ziUbRTokwx0iOhUrzdX5RWKxVYbO/view?usp=drive_link"><p>btech-as-4-sem-technical-communication-kas-401-jul-2023</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1FmXJDxmfB2MRgj46l2QetB0uuX0MjO1I/view?usp=drive_link"><p>btech-as-4-sem-engineering-mathematics-4-kas402-aug-2023</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1BB4a1uSwgIhlrMZpPHgZ1SICmR8OnKTR/view?usp=drive_link"><p>btech-4-sem-universal-human-values-kve-401-2023</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1UlqJRSmW0r1RCILJdHzZiIvtlfVebmPo/view?usp=drive_link"><p>btech-4-sem-engineering-mathematics-4-aug-2023</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1h7uDlqhh386DMunz_32ofyHM6SG4sMVI/view?usp=drive_link"><p>btech-4-sem-computer-system-security-aug-2023</p></a></li>
+                    <li><a href="https://drive.google.com/file/d/1n-DUnCc31v0RPULkGh3iVaPRDNx_2Ujd/view?usp=drive_link"><p>btech-4-sem-communication-engineering-aug-2023</p></a></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <section id="contact">
+    <div class="footer" style="
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;">
+        <div class="column">
+          <h1>ExamWiseAKTU</h1>
+          <p>
+            Bakshi Ka Talab, Lucknow,U.P
+            India.
+          </p>
+          <p>Office Hours: 10 AM to 7 PM (all 7 days)</p>
+        </div>
+        <div class="column">
+          <h3>Useful Links</h3>
+          <ul type="none">
+          <li><a href="#"> Home </a></li>
+          <li><a href="#"> Question Papers </a></li>
+          <li><a href="#"> About Us </a></li>
+          <li><a href="#"> Media </a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <h3>Products</h3>
+          <ul type="none">
+          <li><a href="#"> Test Series </a></li>
+          <li><a href="#"> Live Tests and Quizzes </a></li>
+          <li><a href="#"> Books </a></li>
+          <li><a href="#"> Training Program </a></li>
+          <li><a href="#"> Doubts </a></li>
+          </ul>
+        </div>
+       
+        </div>
+      
+      <div class="footer-bottom" style="margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: #e0e0e0;">
+        <h2 style="background-color: #1a1a1a">Follow us on</h2>
+        <a href="#"><i class="fab fa-youtube"> </i> </a>
+        <a href="#"><i class="fab fa-facebook-f"> </i> </a>
+        <a href="mailto:educationsources01@gmail.com"><i class="fa fa-envelope"> </i> </a>
+      </div>
+      <div class="footer-bottom" style="margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: #e0e0e0;">
+      <p>
+        Copyright © 2024 ExamWiseAKTU : All rights
+        reserved
+      </p>
+      <a href="#"> User Policy </a>
+      <a href="#"> Terms </a>
+      <a href="#"> Privacy </a>
+      </div>
+  </div>
+    </section>
+      
+            
+</body>
+</html>

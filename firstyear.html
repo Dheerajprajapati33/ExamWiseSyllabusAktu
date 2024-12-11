@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   
+    <div id="loader">
+        <div class="spinner"></div>
+      </div>
+      
+
+   <header>
+    <button id="toggleButton">DarkMode</button>
+
+    <script>
+        const toggleButton = document.getElementById('toggleButton');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+    <a href="#" class="logo">ExamWiseAKTU</a>
+    <ul id="menuList">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Result</a></li>
+        <!-- <li><a href="#">Admit Card</a></li>
+        <li><a href="#">Campus connect</a></li> -->
+        <li><a href="index.html#aboutus">About</a></li>
+        <li><a href="#contact">contact</a></li>
+    </ul>
+    <div class="menu-icon">
+        <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+    </div>
+    </header>
+    <script>
+    let menuList = document.getElementById("menuList");
+    menuList.style.maxHeight = "0px";
+
+    function toggleMenu() {
+        if (menuList.style.maxHeight === "0px") {
+            menuList.style.maxHeight = "350px"; // Adjust this value based on your content
+        } else {
+            menuList.style.maxHeight = "0px";
+        }
+    }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" crossorigin="anonymous"></script>
+
+<script>
+    window.onload = function() {
+  setTimeout(function() {
+    document.getElementById("loader").style.display = "none";
+  }, 1500); // 3 seconds loader
+};
+
+</script>
+
+
+
+    <!---main file-->
+    <div class="s1">
+
+        <div id="container">
+            COMMAN FOR ALL BRANCHES
+        </div>
+        <div>
+            <h1 id="sem">SEMESTER 1 & 2</h1>
+            <p id="syll">Syllabus<a href="#"></a></p>
+        </div>
+        <div class="main">
+            <div class="notes">
+                <h2>Notes</h2>
+              <div class="list">
+                <ul style="list-style-type: none;">
+                <li> <a href="https://drive.google.com/file/d/10bxSrtmubXSBqXM_TJ8meX8BrRC-T5HG/view?usp=drive_link"><p>Electronics PDF Paper<p><a></li>
+                <li> <a href="https://drive.google.com/file/d/1IuYEVdAIpIZT5iFA-M1-Q2UDQJHLyzgx/view?usp=drive_link"><p>Fundamentals of Electronics</p></a></li>
+                <li> <a href="https://drive.google.com/file/d/10uNsbDXjIYszQExLAdavq5o2Df7umsXF/view?usp=drive_link"><p>Maths II Quantum series</p></a></li>
+                <li> <a href="https://drive.google.com/file/d/10e9imYPW8gh4UN8DOvlkjy0hGNlsiFLz/view?usp=drive_link">Mechanical Quantum<p></p></a></li>
+                <li> <a href="https://drive.google.com/file/d/10gABEOnkOh01in31LbnLXO3Wbz93Enga/view?usp=drive_link"><p>Physics Quantam</p></a></li>
+                <li> <a href="https://drive.google.com/file/d/10ee8Pyvfm7UzHNELrMhX0J4SvOHiAa3B/view?usp=drive_link"><p>programming for problem solving</p></a></li>
+                <li> <a href="https://drive.google.com/file/d/1RyTtGrwbjGL4tr2-HQQmxnx7DMdWyG0M/view?usp=drive_link"><p>QUANTUM Engineering Mathematics</p></a></li>
+                <li> <a href="https://drive.google.com/file/d/1olYakQQPcI-i__wVOYtcFcx2oOZ58ugi/view?usp=drive_link"><p>QUANTUM_Series_Engg_Chemistry.</p></a></li>
+                <li> <a href="https://drive.google.com/file/d/1NFyhAxXS0hdS8dXYKgMMSfup7Mj3GjD5/view?usp=drive_link"><p>Softskill Quantum Series</p></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="previous">
+                <h2>Previous Year</h2>
+                <div class="list">
+                    <ul style="list-style-type: disc;">
+                        <!--2021-->
+                        <li><a
+                                href="https://drive.google.com/file/d/1L99N7A6FR2h3ASROyZXyf1scSG0pECNp/view?usp=drive_link">
+                                <p>btech-1-sem-basic-electrical-engineering-ree101-2021</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1_775-uo8P0YjzN1-pQ9lwM6bZtcbAW2x/view?usp=drive_link">
+                                <p>btech-1-sem-basic-electronics-nec101-2021</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1_775-uo8P0YjzN1-pQ9lwM6bZtcbAW2x/view?usp=drive_link">
+                                <p>btech-1-sem-basic-electronics-nec101-2021</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1a_S2dMSUM9xeCYmzDRYk_bYacjVL0hBn/view?usp=drive_link">
+                                <p>btech-1-sem-basic-electronics-rec101-2021</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1AFRwnSdWRom4SUypTysu_WJJoKI7G0vA/view?usp=drive_link">
+                                <p>btech-1-sem-chemistry-kas102-2021</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/19WtpVTNdNBiebp-2jtWvMsDLwBVraEDQ/view?usp=drive_link">
+                                <p>btech-1-sem-engineering-chemistry-kas102t-2021</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/13t4jzujM3rXXui-O5fWUbMC6HHbcfx85/view?usp=drive_link">
+                                <p>btech-1-sem-engineering-chemistry-nas102-2021</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/16RrNU4Le6K9Y85C6LcYHYRdNinakeEP3/view?usp=drive_link">
+                                <p>btech-1-sem-engineering-mathematics-1-kas103t-2021</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1NHiQilcTKwmhqA_WvXOr0pxWSKn4rANs/view?usp=drive_link">
+                                <p>btech-1-sem-engineering-mechanics-nme102-2021</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1fX3Um89WnPYDNRMmMQpJmRiISsLLaYw1/view?usp=drive_link">
+                                <p>btech-1-sem-engineering-physics-kas101t-2021</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1vWRAha6259ezvlIHyohTTx-KwXnOoRSh/view?usp=drive_link">
+                                <p>btech-1-sem-fundamentals-of-mechanical-engineering-and-mechatronics-kme101t-2021</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1CtPRDzdniPldxyH_z06s6bMsgOy8ZfuI/view?usp=drive_link">
+                                <p>btech-1-sem-programming-for-problem-solving-kcs101-2021</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1hBMKVymCzArP4Mut6lJfMDQx8L8ShAis/view?usp=drive_link">
+                                <p>btech-1-sem-soft-skills-1-knc101-2021</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1oMINHzTmDxCB-ayOSYhqWSPATRnhezMp/view?usp=drive_link">
+                                <p>btech-2-sem-elements-of-mechanical-engineering-rme101-2021</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1GnXp5Fmgxcll1U7Ick1AztLajVX3nFl8/view?usp=drive_link">
+                                <p></p>
+                            </a></li>
+                        <!--2022-->
+                        <li><a
+                                href="https://drive.google.com/file/d/1e1eYK4gjxJOewzXdnP2-iiMlKCEjQcTx/view?usp=drive_link">
+                                <p>btech-1-sem-ai-for-engineering-kmc101-2022</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1gdtnqavkMlLFhZJh5yl2zkZAS1zqggR1/view?usp=drive_link">
+                                <p>btech-1-sem-basic-electrical-engg-kee101-2022</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1B3WHRTN9GFynuCSCZhL8QnuUIArwBgMu/view?usp=drive_link">
+                                <p>btech-1-sem-basic-electrical-engineering-kee101t-2022</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1L_xLZ5zZd-yyRmxcMVqsec-k2j6G4154/view?usp=drive_link">
+                                <p>btech-1-sem-basic-electronics-rec101-2022</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1z39M9fz0fFSBK8-stDBrsl7RtmPuoGp9/view?usp=drive_link">
+                                <p>btech-1-sem-chemistry-kas102-2022</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1lXO_mIOX565FyH-egiW9EJGelr_Km2OA/view?usp=drive_link">
+                                <p>btech-1-sem-elements-of-mechanical-engg-rme101-2022</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1NFn5D-5DV5Ctzda-w6u1OojUGsHPkFyY/view?usp=drive_link">
+                                <p>btech-1-sem-engineering-mathematics-1-kas103t-2022</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/19Kd7y8BDc1jisLev_buB7svGKhinaiBt/view?usp=drive_link">
+                                <p>btech-1-sem-engineering-physics-1-nas101-2022</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1v93r3LFVK3RNYNDWodi7LrIrS9CZ_Cjt/view?usp=drive_link">
+                                <p>btech-1-sem-programming-for-problem-solving-kcs101-2022</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1aBaoiia7LeEZSn-HSEe-Zb1UPO8gfFFu/view?usp=drive_link">
+                                <p>btech-1-sem-soft-skill-1-knc101-2022</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1d2i5rGDwSV0degfWfr9RY_oX0X27JHPj/view?usp=drive_link">
+                                <p>btech-2-sem-engineering-mathes-2-ras203-2022</p>
+                            </a></li>
+                        <!---2023-->
+                        <li><a
+                                href="https://drive.google.com/file/d/1ydnwrWeqNOCxxAGcewb7XLrIcNUlRVj1/view?usp=drive_link">
+                                <p>btech-1-sem-engineering-chemistry-bas-102-mar-2023</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1exOxlcrPFhujI1Ja5A5GLtl2r5Auo8Bx/view?usp=drive_link">
+                                <p>btech-1-sem-engineering-mathematics-1-bas-103-2023</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/18uPmeRpxoAW97qhMhLBfKTdCLO-pz3at/view?usp=drive_link">
+                                <p>btech-1-sem-soft-skills-bas-105-2023</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1gwoRkW7zt7ko0fDZURen-9QzaFZZo0e_/view?usp=drive_link">
+                                <p>btech-1-sem-engineering-physics-bas101-2023</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1j79MnOSUvY5V2hFxsMnVCHrmZrkDNf11/view?usp=drive_link">
+                                <p>btech-1-sem-environment-and-ecology-bas-104-2023</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1HsSy4VGb_iuY4sYyu4eNnPArzCA8aQzj/view?usp=drive_link">
+                                <p>btech-1-sem-fundamentals-of-electrical-engineering-bee101-2023</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/10Wn6e39uZwDP57NFqkueX22FsO6ptCfU/view?usp=drive_link">
+                                <p>btech-1-sem-fundamentals-of-electronics-engineering-bec101-2023</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1LV9v2F-dZ1gNmH5WHzTXRLH7BA08SXk0/view?usp=drive_link">
+                                <p>btech-1-sem-programming-for-problem-solving-bcs101-2023</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1GHACZuLNRN3UB4qWqg9TOjRBmHzD5nJ4/view?usp=drive_link">
+                                <p>btech-2-sem-engineering-chemistry-bas202-2023</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1EmpYHFh7pvGw60iBSG4kREHthGvCbHQV/view?usp=drive_link">
+                                <p>btech-2-sem-engineering-mathematics-2-bas203-2023</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1gC0zOxnvVEIuykBPTYxXBiA2HjvYIjWQ/view?usp=drive_link">
+                                <p>btech-2-sem-engineering-physics-bas201-2023</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1Pp91giHnQ9_SXrkNqLzRmNKm3raUlZfZ/view?usp=drive_link">
+                                <p>btech-2-sem-environment-and-ecology-bas-204-2023</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1_jNLqHmChFspxppabXujBy3DFlBab234/view?usp=drive_link">
+                                <p>btech-2-sem-fundamentals-of-electrical-engineering-bee201-2023.pdf</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1mVm_m-F7V4-tmcCm9dF5Gyw4kJZBDBGg/view?usp=drive_link">
+                                <p>btech-2-sem-soft-skills-bas205-2023</p>
+                            </a></li>
+                        <!---2024-->
+                        <li><a
+                                href="https://drive.google.com/file/d/1SjV-nsE8p-I80djMkQN6pkWMx368ismh/view?usp=drive_link">
+                                <p>btech-1-sem-programming-for-problem-solving-bcs101-mar-2024</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1p1wDuJM6mI1MwjQRIhuQe-VceB1aMxE9/view?usp=drive_link">
+                                <p>btech-1-sem-engineering-mathematics-1-bas103-mar-2024</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1sVmqPcPNDMrcXSgoMK0JbPA2rgQRqGA0/view?usp=drive_link">
+                                <p>btech-1-sem-engineering-physics-bas101-mar-2024</p>
+                            </a></li>
+                        <li><a
+                                href="https://drive.google.com/file/d/1DOK3cHFJrvmXBsP1dW2KE_0OaimGGQ_E/view?usp=drive_link">
+                                <p>btech-1-sem-fundamentals-of-electrical-engineering-bee101-mar-2024</p>
+                            </a></li>
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+  <section id="contact">
+     <div class="footer" style="
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;">
+        <div class="column">
+          <h1>ExamWiseAKTU</h1>
+          <p>
+            Bakshi Ka Talab, Lucknow,U.P
+            India.
+          </p>
+          <p>Office Hours: 10 AM to 7 PM (all 7 days)</p>
+        </div>
+        <div class="column">
+          <h3>Useful Links</h3>
+          <ul type="none">
+          <li><a href="#"> Home </a></li>
+          <li><a href="#"> Question Papers </a></li>
+          <li><a href="#"> About Us </a></li>
+          <li><a href="#"> Media </a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <h3>Products</h3>
+          <ul type="none">
+          <li><a href="#"> Test Series </a></li>
+          <li><a href="#"> Live Tests and Quizzes </a></li>
+          <li><a href="#"> Books </a></li>
+          <li><a href="#"> Training Program </a></li>
+          <li><a href="#"> Doubts </a></li>
+          </ul>
+        </div>
+       
+        </div>
+      
+      <div class="footer-bottom" style="margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: #e0e0e0;">
+        <h2 style="background-color: #1a1a1a">Follow us on</h2>
+        <a href="#"><i class="fab fa-youtube"> </i> </a>
+        <a href="#"><i class="fab fa-facebook-f"> </i> </a>
+        <a href="mailto:educationsources01@gmail.com"><i class="fa fa-envelope"> </i> </a>
+      </div>
+      <div class="footer-bottom" style="margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: #e0e0e0;">
+      <p>
+        Copyright © 2024 ExamWiseAKTU : All rights
+        reserved
+      </p>
+      <a href="#"> User Policy </a>
+      <a href="#"> Terms </a>
+      <a href="#"> Privacy </a>
+      </div>
+  </div>
+  </section>
+
+      
+            
+</body>
+</html>
